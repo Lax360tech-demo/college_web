@@ -104,14 +104,9 @@ export default function Navbar() {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="font-black text-lg sm:text-2xl tracking-tight leading-tight text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)]">
-                  Lax360
-                </span>
-                <span className="text-[9px] sm:text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-white/20 text-white border border-white/30 drop-shadow">
-                  Autonomous
-                </span>
-              </div>
+              <span className="font-black text-lg sm:text-2xl tracking-tight leading-tight text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)]">
+                Lax360
+              </span>
               <p className={`text-[10px] sm:text-[11px] tracking-wider uppercase font-semibold text-slate-300 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] mt-0.5 ${!isHomePage ? 'hidden md:block' : 'hidden xs:block'}`}>
                 College of Technology & Science
               </p>

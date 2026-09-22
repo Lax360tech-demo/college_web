@@ -121,19 +121,13 @@ export default function CookieConsent() {
               <div className="flex items-center gap-2 shrink-0 justify-end flex-wrap sm:flex-nowrap pt-2 lg:pt-0 border-t lg:border-t-0 border-slate-800/80">
                 <button
                   onClick={() => setShowModal(true)}
-                  className="px-3 py-1.5 rounded-xl text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800/80 transition-colors whitespace-nowrap"
+                  className="px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800/80 transition-colors whitespace-nowrap"
                 >
                   Manage Preferences
                 </button>
                 <button
-                  onClick={handleRejectNonEssential}
-                  className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 transition-colors whitespace-nowrap"
-                >
-                  Reject Non-Essential
-                </button>
-                <button
                   onClick={handleAcceptAll}
-                  className="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-md shadow-blue-600/30 transition-colors whitespace-nowrap"
+                  className="px-4 py-1.5 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-md shadow-blue-600/30 transition-colors whitespace-nowrap"
                 >
                   Accept All
                 </button>
